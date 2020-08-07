@@ -1,41 +1,42 @@
-*.foreground:  #f8dcc0
-*.background:  #1f1d45
-*.cursorColor: #efbf38
+! #define bg    #1c1c1c
+*.foreground:  #cccccc
+*.background:  #1c1c1c
+*.cursorColor: #e07d13
 !
 ! Black
-*.color0:      #050404
-*.color8:      #4e7cbf
+*.color0:      #17141f
+*.color8:      #495162
 !
 ! Red
-*.color1:      #bd0013
-*.color9:      #fc5f5a
+*.color1:      #ff6b7f
+*.color9:      #fe9ea1
 !
 ! Green
-*.color2:      #4ab118
-*.color10:     #9eff6e
+*.color2:      #00bd9c
+*.color10:     #98c379
 !
 ! Yellow
-*.color3:      #e7741e
-*.color11:     #efc11a
+*.color3:      #e6c62f
+*.color11:     #f9e46b
 !
 ! Blue
-*.color4:      #0f4ac6
-*.color12:     #1997c6
+*.color4:      #22e8df
+*.color12:     #91fff4
 !
 ! Magenta
-*.color5:      #665993
-*.color13:     #9b5953
+*.color5:      #dc396a
+*.color13:     #da70d6
 !
 ! Cyan
-*.color6:      #70a598
-*.color14:     #c8faf4
+*.color6:      #56b6c2
+*.color14:     #bcf3ff
 !
 ! White
-*.color7:      #f8dcc0
-*.color15:     #f6f5fb
+*.color7:      #f1f1f1
+*.color15:     #ffffff
 !
 ! Bold, Italic, Underline
-*.colorBD:     #bd0013
+*.colorBD:     #00bbc3
 
 !fc-list to check spelling and casing
 URxvt.font: xft:Inconsolata for Powerline:pixelsize=16,xft:Symbola,xft:NotoColorEmoji:minspace=False
