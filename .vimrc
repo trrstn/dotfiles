@@ -11,7 +11,9 @@ Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-surround'
 Plug 'jiangmiao/auto-pairs'
 Plug 'tomtom/tcomment_vim'
+Plug 'mbbill/undotree'
 
+Plug 'sheerun/vim-polyglot'
 Plug 'elixir-editors/vim-elixir'
 Plug 'slashmili/alchemist.vim'
 Plug 'pangloss/vim-javascript'
@@ -20,14 +22,21 @@ Plug 'digitaltoad/vim-pug'
 
 call plug#end()
 
+set background=dark
+colorscheme synthwave
+
 """""""""""""""" Settings
+let NERDTreeShowHidden=1
 set encoding=utf-8
 set tabstop=2 shiftwidth=2 expandtab
 set noswapfile
 set nowrap
 set number
 set mouse=a
-
+set incsearch
+set nobackup
+set undodir=~/.vim/undodir
+set undofile
 set noshowmode
 set title
 
@@ -46,6 +55,7 @@ nnoremap <C-H> <C-W><C-H>
 
 map <C-n> :NERDTreeToggle<CR>
 map <C-p> :FZF<CR>
+map <C-u> :UndotreeShow<CR>
 
 command! -bang -nargs=* GGrep
   \ call fzf#vim#grep(

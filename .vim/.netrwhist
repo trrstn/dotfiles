@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/home/tristandev/workspace/slerp'
+let g:netrw_dirhist_0='/home/tristandev/workspace/slerp-shop'
+let g:netrw_dirhist_9='/home/tristandev/workspace/slerp'
+let g:netrw_dirhist_8='/home/tristandev/tmp/dotfiles'
+let g:netrw_dirhist_7='/home/tristandev/workspace/slerp'
+let g:netrw_dirhist_6='/home/tristandev/workspace/yuppers'
+let g:netrw_dirhist_5='/home/tristandev/workspace/condotopia'
+let g:netrw_dirhist_4='/home/tristandev/workspace/slerp'
+let g:netrw_dirhist_3='/home/tristandev/workspace/yuppers'
+let g:netrw_dirhist_2='/home/tristandev/workspace/chirp'
